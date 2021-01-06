@@ -71,12 +71,19 @@ class _MyAppState extends State<MyApp> {
         animationCurve: Curves.decelerate,
         backLayer: Profile(),
         frontLayer: Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              fit: BoxFit.cover,
+              image: AssetImage('assets/images/azan.jpg'),
+            ),
+          ),
           child: InkWell(
             splashColor: Colors.cyan.withAlpha(30),
             onTap: () {
               playpause();
             },
             child: Container(
+              
               child: Center(
                 child: Stack(
                   alignment: Alignment.center,
@@ -85,20 +92,25 @@ class _MyAppState extends State<MyApp> {
                     Container(
                       height: 150.0,
                       width: 150.0,
+                      // color: Colors.transparent,
                       child: LoadingIndicator(
                         indicatorType: Indicator.ballScaleMultiple,
-                        color: Colors.lightBlue.withOpacity(0.3),
+                        color: Colors.cyan.withOpacity(0.3),
                       ),
                     ),
                     IconButton(
                         iconSize: 100.0,
                         icon: Icon(
                           playPauseIcon,
-                          color: Colors.lightBlue.shade700,
+                          color: Colors.cyan,
                         ),
                         onPressed: () {
                           playpause();
                         }),
+                    // Image.asset(
+                    //   'assets/images/azan.jpg',
+                    //   fit: BoxFit.fill,
+                    // ),
                   ],
                 ),
               ),

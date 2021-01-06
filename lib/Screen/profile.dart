@@ -120,6 +120,7 @@ class Profile extends StatelessWidget {
                         icon: FaIcon(
                           FontAwesomeIcons.wikipediaW,
                           color: Colors.white,
+                          size: 18.0,
                         ),
                         onPressed: () {
                           launch('https://en.everybodywiki.com/Usama_Sarwar');
@@ -191,18 +192,9 @@ class Profile extends StatelessWidget {
                 SizedBox(
                   height: 100.0,
                 ),
+                
                 Text(
-                  'CREDITS\nAzan App',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    color: Colors.white.withOpacity(0.5),
-                  ),
-                ),
-                SizedBox(
-                  height: 10.0,
-                ),
-                Text(
-                  '©Copyright Azan 2021. All Rights Reserved.',
+                  '© Copyright Azan 2021. All Rights Reserved.',
                   style: TextStyle(
                     color: Colors.white.withOpacity(0.5),
                   ),
