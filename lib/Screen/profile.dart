@@ -194,7 +194,7 @@ class Profile extends StatelessWidget {
                 ),
                 
                 Text(
-                  '© Copyright Azan 2021. All Rights Reserved.',
+                  'Sharing is Caring ♥',
                   style: TextStyle(
                     color: Colors.white.withOpacity(0.5),
                   ),

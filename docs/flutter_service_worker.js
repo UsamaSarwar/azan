@@ -3,12 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "3b5e7bebc8b644a709a7fe741174871c",
+  "assets/AssetManifest.json": "5325a41c4809cd54b5ec8fac4419abcf",
 "assets/assets/audio/adhan.mp3": "c9dcfa81bd1720ea64f125fe743347a2",
-"assets/assets/images/nointernet.png": "40e316f5b75e9b62c84e1432e08eede0",
-"assets/assets/images/nointernetblue.png": "651a69c02267a0fc2df95007a7d7b04c",
+"assets/assets/images/azan.jpg": "38c7c03dd18f5898436b5a31cd526d40",
 "assets/assets/images/usama.jpg": "32f23e6eb71f873913dafe7982d2473d",
-"assets/assets/images/waiting_quran.png": "c984b2cbcb58c2baa85e25afe9662e2e",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/NOTICES": "118f1762647caebca81b7a8be29d3481",
@@ -19,9 +17,9 @@ const RESOURCES = {
 "favicon.png": "694107493101c2aced0a5d20f376b144",
 "icons/Icon-192.png": "694107493101c2aced0a5d20f376b144",
 "icons/Icon-512.png": "694107493101c2aced0a5d20f376b144",
-"index.html": "1ac3d781a4709901a76c71720c41de0b",
-"/": "1ac3d781a4709901a76c71720c41de0b",
-"main.dart.js": "4018db0157f402e07c5726670a9516e1",
+"index.html": "ddeb57fd3e53d322ac71c1a3e0010e9a",
+"/": "ddeb57fd3e53d322ac71c1a3e0010e9a",
+"main.dart.js": "62d0ffe060a35b0ef7dfe0cc80535b1f",
 "manifest.json": "4fcafbb0bcb66c45507bb480b077b857",
 "version.json": "1553e0bbe2aff0fa7a00637ddcc02d62"
 };
