@@ -1,0 +1,32 @@
+name: azan
+description: Azan
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.1
+  assets_audio_player: ^2.0.13+1
+  # flutter_webview_plugin: ^0.3.11
+  loading_indicator: ^1.1.0
+  backdrop: ^0.4.7
+  flushbar: ^1.10.0
+  font_awesome_flutter: ^8.8.1
+  url_launcher: ^5.4.5
+  # meta: ^1.0.4
+  # platform: ^2.0.0
+  # geolocator: ^5.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
+    - assets/images/
