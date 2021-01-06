@@ -1,6 +1,6 @@
 name: azan
 description: Azan
-publish_to: 'none'
+# publish_to: 'none'
 version: 1.0.0+1
 
 environment:
@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.1
-  assets_audio_player: ^2.0.13+1
+  assets_audio_player: ^2.0.10
   loading_indicator: ^1.1.0
   backdrop: ^0.4.7
   flushbar: ^1.10.0
